@@ -1,10 +1,10 @@
-import { Typography } from '@material-ui/core'
-import React from 'react'
-import useStyles from './useStyles'
-import classNames from 'classnames'
+import { Typography } from '@material-ui/core';
+import React from 'react';
+import useStyles from './useStyles';
+import classNames from 'classnames';
 
 const Header: React.FC = () => {
-  const classes = useStyles()
+  const classes = useStyles();
   return (
     <div className={classes.container}>
       <Typography
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
         R<span className={classes.accentLetter2}>O</span>SENBERG
       </Typography>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

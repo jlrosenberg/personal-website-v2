@@ -1,13 +1,13 @@
-type ExperienceType = `Education` | `Internship` | `Co-op` | `Job`
+type ExperienceType = `Education` | `Internship` | `Co-op` | `Job`;
 
 interface Experience {
-  description?: string | Array<string>
-  endDate: Date | null
-  location: string
-  name: string
-  startDate: Date
-  title: string
-  type: ExperienceType
+  description?: string | Array<string>;
+  endDate: Date | null;
+  location: string;
+  name: string;
+  startDate: Date;
+  title: string;
+  type: ExperienceType;
 }
 
 const getExperiences = (): Array<Experience> => {
@@ -68,7 +68,7 @@ const getExperiences = (): Array<Experience> => {
       title: `Software Engineer`,
       type: `Co-op`,
     },
-  ]
-}
+  ];
+};
 
-export default getExperiences
+export default getExperiences;

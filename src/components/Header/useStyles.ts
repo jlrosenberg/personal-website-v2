@@ -1,5 +1,5 @@
-import { makeStyles } from '@material-ui/styles'
-import theme from '../../theme'
+import { makeStyles } from '@material-ui/styles';
+import theme from '../../theme';
 
 const useStyles = makeStyles({
   container: {
@@ -28,9 +28,10 @@ const useStyles = makeStyles({
   accentLetter1: {
     color: theme.palette.primary.main,
   },
+
   accentLetter2: {
     color: theme.palette.secondary.main,
   },
-})
+});
 
-export default useStyles
+export default useStyles;

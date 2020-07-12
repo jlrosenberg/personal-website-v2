@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Experience: React.FC = () => {
-  return <div />
-}
+  return <div />;
+};
 
-export default Experience
+export default Experience;
