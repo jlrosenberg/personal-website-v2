@@ -1,6 +1,6 @@
 type ExperienceType = `Education` | `Internship` | `Co-op` | `Job`;
 
-interface Experience {
+export interface Experience {
   description?: string | Array<string>;
   endDate: Date | null;
   location: string;

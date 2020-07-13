@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Typography, Paper, ThemeProvider } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/core';
 import './App.css';
 import theme from './theme';
 import Home from './containers/Home';

@@ -1,4 +1,5 @@
 {
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -6,8 +7,12 @@
       "jsx": true
     }
   },
+
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "plugins": ["react"],
   "rules": {
     "semi": [2, "always"],
-    "quotes": [2, "backtick"]
+    "quotes": [2, "backtick"],
+    "react/jsx-sort-props": "error"
   }
 }

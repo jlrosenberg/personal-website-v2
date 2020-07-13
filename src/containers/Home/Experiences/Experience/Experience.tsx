@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Experience: React.FC = () => {
+interface Props {}
+
+const Experience: React.FC<Props> = () => {
   return <div />;
 };
 

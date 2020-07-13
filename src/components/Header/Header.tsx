@@ -8,14 +8,14 @@ const Header: React.FC = () => {
   return (
     <div className={classes.container}>
       <Typography
-        variant="h1"
         className={classNames(classes.name, classes.firstName)}
+        variant="h1"
       >
         J<span className={classes.accentLetter1}>O</span>SH
       </Typography>
       <Typography
-        variant="h1"
         className={classNames(classes.name, classes.lastName)}
+        variant="h1"
       >
         R<span className={classes.accentLetter2}>O</span>SENBERG
       </Typography>
