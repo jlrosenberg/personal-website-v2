@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from '@material-ui/core';
 import './App.css';
-import theme from './theme';
+import theme from './common/theme';
 import Home from './containers/Home';
 
 function App() {

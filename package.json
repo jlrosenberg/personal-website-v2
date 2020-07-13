@@ -14,6 +14,11 @@
     "react-scripts": "3.4.1",
     "typescript": "^3.9.6"
   },
+  "directories": {
+    "components": "src/components/",
+    "common": "src/common/",
+    "containers": "src/containers/"
+  },
   "devDependencies": {
     "@types/classnames": "^2.2.10",
     "@types/jest": "^24.0.0",
@@ -30,10 +35,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eject": "react-scripts eject",
+    "lint": "yarn eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "browserslist": {
     "production": [

@@ -1,10 +1,15 @@
 import { makeStyles } from '@material-ui/styles';
-import theme from '../../theme';
+import theme from 'common/theme';
 
 const useStyles = makeStyles({
   container: {
     padding: theme.spacing(4),
     paddingTop: theme.spacing(8),
+    [theme.breakpoints.down(`sm`)]: {},
+    [theme.breakpoints.down(`xs`)]: {
+      paddingLeft: theme.spacing(1),
+      paddingRight: theme.spacing(1),
+    },
   },
 
   name: {
@@ -12,7 +17,6 @@ const useStyles = makeStyles({
     [theme.breakpoints.down(`xs`)]: {
       fontSize: `3rem`,
       fontWeight: 700,
-      letterSpacing: `1`,
       textAlign: `center`,
     },
   },

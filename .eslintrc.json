@@ -8,8 +8,13 @@
     }
   },
 
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "plugins": ["react"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint"
+  ],
+  "plugins": ["@typescript-eslint"],
   "rules": {
     "semi": [2, "always"],
     "quotes": [2, "backtick"],
